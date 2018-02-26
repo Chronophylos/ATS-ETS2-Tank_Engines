@@ -3,7 +3,7 @@ SiiNunit
 	/**
 	 * Generated with the ATS Engine Generator Tool by Wilson212
 	 */
-	accessory_engine_data : v92s2f.chtz.mercedes.actros2014.wtd.engine
+	accessory_engine_data : v92s2f.chtz.peterbilt.389.engine
 	{
 		name: "V92S2F"
 		price: 63000	# Engine price
@@ -47,7 +47,7 @@ SiiNunit
 		engine_brake_positions: 3	# The number of engine brake intensities
 
 		# Sound Data
-		defaults[]: "/def/vehicle/truck/mercedes.actros2014.wtd/sound/interior.sii"
-		defaults[]: "/def/vehicle/truck/mercedes.actros2014.wtd/sound/exterior.sii"
+		defaults[]: "/def/vehicle/truck/peterbilt.389/sound/interior.sii"
+		defaults[]: "/def/vehicle/truck/peterbilt.389/sound/exterior.sii"
 	}
 }

@@ -1,6 +1,6 @@
 SiiNunit
 {
-accessory_sound_data : std.mercedes.actros2014.wtd.esound
+accessory_sound_data : std.peterbilt.389.esound
 {
 	exterior_sound: true
 
@@ -58,10 +58,8 @@ accessory_sound_data : std.mercedes.actros2014.wtd.esound
 
 @include "/def/vehicle/truck/common_sound_ext.sui"
 
-	suitable_for[]: "v92s2.chtz.mercedes.actros2014.wtd.engine"
-	suitable_for[]: "v92s2f.chtz.mercedes.actros2014.wtd.engine"
-	suitable_for[]: "ha500.mt890.mercedes.actros2014.wtd.engine"
-	suitable_for[]: "xa500.mt890.mercedes.actros2014.wtd.engine"
+	suitable_for[]: "v92s2.chtz.peterbilt.389.engine"
+	suitable_for[]: "v92s2f.chtz.peterbilt.389.engine"
 }
 
 sound_data: .start
