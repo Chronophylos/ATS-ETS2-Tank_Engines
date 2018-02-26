@@ -1,0 +1,50 @@
+SiiNunit
+{
+	/**
+	 * Generated with the ATS Engine Generator Tool by Wilson212
+	 */
+	accessory_engine_data : xa500.mt890.mercedes.actros2014.wtd.engine
+	{
+		name: "MTU MT 890 Xa-500"
+		price: 40000	# Engine price
+		unlock: 20		# Unlocks @ Level
+
+		# Engine display info
+		info[]: "816 @@hp@@ (608@@kw@@)"
+		info[]: "1@@dg@@680 @@nm@@ (1@@dg@@239 @@lb_ft@@)"
+		info[]: "2@@dg@@750 @@rpm@@"
+		icon: "mtu_mt_890"
+
+		# Engine Specs
+		torque: 1680	# Engine power in Newton-metres
+		volume: 6.7	# Engine size in liters. Used for Realistic Fuel Consumption settings
+
+		# Torque Curves
+		torque_curve[]: (1000, 0.3274)
+		torque_curve[]: (1500, 0.5952)
+		torque_curve[]: (2150, 0.8929)
+		torque_curve[]: (2750, 1)
+		torque_curve[]: (4250, 0.7738)
+
+		# RPM Data
+		rpm_idle: 1500			# RPM at idle
+		rpm_limit: 3000			# Governed RPM limit
+		rpm_limit_neutral: 3000	# RPM limit in neutral gear
+		rpm_range_low_gear: (2200, 4100)
+		rpm_range_high_gear: (2800, 4100)
+		rpm_range_power_boost: (450, 350)
+		rpm_range_engine_brake: (2500, 4100)
+
+		# Engine Brake data
+		engine_brake: 2.0			# Engine Brake Strength
+		engine_brake_downshift: 0	# Enable automatic downshift for Engine Brake
+		engine_brake_positions: 3	# The number of engine brake intensities
+
+		# Adblue Settings
+		no_adblue_power_limit: 1
+
+		# Sound Data
+		defaults[]: "/def/vehicle/truck/mercedes.actros2014.wtd/sound/interior.sii"
+		defaults[]: "/def/vehicle/truck/mercedes.actros2014.wtd/sound/exterior.sii"
+	}
+}

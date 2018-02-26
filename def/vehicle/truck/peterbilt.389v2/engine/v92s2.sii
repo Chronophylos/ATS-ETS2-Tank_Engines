@@ -1,0 +1,52 @@
+SiiNunit
+{
+	/**
+	 * Generated with the ATS Engine Generator Tool by Wilson212
+	 */
+	accessory_engine_data : v92s2.chtz.peterbilt.389v2.engine
+	{
+		name: "V92S2"
+		price: 52163	# Engine price
+		unlock: 20		# Unlocks @ Level
+
+		# Engine display info
+		info[]: "1@@dg@@000 @@hp@@ (746@@kw@@)"
+		info[]: "4@@dg@@522 @@nm@@ (3@@dg@@335 @@lb_ft@@)"
+		info[]: "1@@dg@@100 @@rpm@@"
+		icon: "engine_01"
+
+		# Engine Specs
+		torque: 4522	# Engine power in Newton-metres
+		volume: 20.0	# Engine size in liters. Used for Realistic Fuel Consumption settings
+
+		# Torque Curves
+		torque_curve[]: (300, 0)
+		torque_curve[]: (700, 0.8)
+		torque_curve[]: (1100, 1)
+		torque_curve[]: (1650, 1)
+		torque_curve[]: (1900, 0.85)
+		torque_curve[]: (2100, 0.4)
+		torque_curve[]: (2300, 0)
+
+		# RPM Data
+		rpm_idle: 900			# RPM at idle
+		rpm_limit: 2100			# Governed RPM limit
+		rpm_limit_neutral: 2200	# RPM limit in neutral gear
+		rpm_range_low_gear: (800, 2000)
+		rpm_range_high_gear: (1100, 2000)
+		rpm_range_power_boost: (450, 350)
+		rpm_range_engine_brake: (1800, 2100)
+
+		# Engine Brake data
+		engine_brake: 2.0			# Engine Brake Strength
+		engine_brake_downshift: 1	# Enable automatic downshift for Engine Brake
+		engine_brake_positions: 3	# The number of engine brake intensities
+
+		# Adblue Settings
+		no_adblue_power_limit: 1
+
+		# Sound Data
+		defaults[]: "/def/vehicle/truck/peterbilt.389v2/sound/interior.sii"
+		defaults[]: "/def/vehicle/truck/peterbilt.389v2/sound/exterior.sii"
+	}
+}
