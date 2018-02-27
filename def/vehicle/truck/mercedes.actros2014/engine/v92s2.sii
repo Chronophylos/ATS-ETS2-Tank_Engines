@@ -3,7 +3,7 @@ SiiNunit
 	/**
 	 * Generated with the ATS Engine Generator Tool by Wilson212
 	 */
-	accessory_engine_data : v92s2.chtz.peterbilt.389.engine
+	accessory_engine_data : v92s2.chtz.mercedes.actros2014.engine
 	{
 		name: "V92S2"
 		price: 52163	# Engine price
@@ -46,7 +46,7 @@ SiiNunit
 		no_adblue_power_limit: 1
 
 		# Sound Data
-		defaults[]: "/def/vehicle/truck/peterbilt.389/sound/interior.sii"
-		defaults[]: "/def/vehicle/truck/peterbilt.389/sound/exterior.sii"
+		defaults[]: "/def/vehicle/truck/mercedes.actros2014/sound/interior.sii"
+		defaults[]: "/def/vehicle/truck/mercedes.actros2014/sound/exterior.sii"
 	}
 }

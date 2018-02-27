@@ -1,1 +1,28 @@
-This is a sample mod by [red]SCS Software[normal] which we are shipping to show you how to adjust your mod to new standards.
+This is a collection of some engines used in various tanks
+
+Current available Engines:
+- V92S2 and V92S2F
+
+Soon(TM) available Engines:
+- MTU MT 890 Ha-500 and Xa-500
+- MTU MT 892 Ha-501 and Xa-500
+- MTU MT 883 1100 Kw and 1325 Kw
+
+ToDo:
+- Add custom sounds
+
+- Soon(TM) available:
+Transmissions
+
+
+Progress:
+- V92S2:
+  - Stats: Yes
+  - Balance: No
+  - Icon: Yes
+  - Sound: No
+- V92S2F:
+  - Stats: Yes
+  - Balance: No
+  - Icon: Yes
+  - Sound: No
